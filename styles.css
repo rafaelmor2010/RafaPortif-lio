@@ -13,6 +13,7 @@ body {
 /*mudando a cor do header class .cabecalho*/
 .cabecalho {
     background: white;
+    flex-wrap: wrap;
 }
 
 .cabecalho_titulo_folio {
@@ -68,6 +69,8 @@ body {
     justify-content: center;
     /*espaçamento entre cabeçalho header e section*/
     padding-top: 20px;
+
+    flex-wrap: wrap;
 }
 
 /*formatando a imagem deixando com tamanho ideal*/
@@ -85,6 +88,7 @@ body {
 .container-principal-texto {
     font-size: 25px;
     color: #e0dfe0;
+  
 }
 
 /*Colocando os elemento um do lado do outro*/
@@ -102,24 +106,32 @@ body {
 }
 .container-secundario {
     color:#e0dfe0;
+    justify-content: center;
+
+    flex-wrap: wrap;
 }
 
 .container-secundario-textos {
     /*40vw significa view port 40 % da tela*/
     width: 40vw;
     font-size: 25px;
+   
 }
 
 /*tirando as bolinhas da lista*/
 .container-secundario-lista {
+    display: flex;
+    /*tirando o estilo da lista ou seja as bolinhas*/
     list-style-type: none;
-  
-    padding: 10px;
-    align-content: center;
-
+    /*espaçamento entre os elementos*/
+    justify-content: space-around; 
+    
 }
-.img-logo {
-    margin-top: 40px;
-    width: 30px;
 
+.container-secundario-item {
+background-color: blueviolet;
+/*espaçamento interno*/
+padding: 10px;
+border-radius: 15px;
+margin-top: 20px;
 }
