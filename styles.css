@@ -13,7 +13,7 @@ body {
 /*mudando a cor do header class .cabecalho*/
 .cabecalho {
     background: white;
-    flex-wrap: wrap;
+    
 }
 
 .cabecalho_titulo_folio {
@@ -70,7 +70,7 @@ body {
     /*espaçamento entre cabeçalho header e section*/
     padding-top: 20px;
 
-    flex-wrap: wrap;
+
 }
 
 /*formatando a imagem deixando com tamanho ideal*/
@@ -108,7 +108,7 @@ body {
     color:#e0dfe0;
     justify-content: center;
 
-    flex-wrap: wrap;
+ 
 }
 
 .container-secundario-textos {
@@ -134,4 +134,42 @@ background-color: blueviolet;
 padding: 10px;
 border-radius: 15px;
 margin-top: 20px;
+}
+
+
+/*section protifolio*/
+.container-portfolio {
+    background-color: white;
+    color: rgb(51, 2, 51);
+    padding-bottom: 25px;
+}
+
+
+
+.container-projeto-titulo {
+    font-size: 40px;
+    
+}
+
+.container-projeto-link a {
+   
+    color: rgb(51, 2, 51);
+}
+
+.container-projeto-link a:hover {
+    margin: 10px;
+    color: blueviolet;
+}
+
+.container-projeto-link {
+   padding: 5px;
+}
+
+.rodape {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    
 }
